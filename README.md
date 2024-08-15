@@ -127,7 +127,8 @@
         </div>
     </div>
     <div class="square-container">
-        Buenas, somos dos notas por la costa brava, y hemos creado esta web para buscar planes y conocer a gente.
+        <p>Buenas, somos dos notas por la costa brava, y hemos creado esta web para buscar planes y conocer a gente.</div></p>
+        <p><b>En cuanto a la multa... basta con que nos sigais para saldar la deuda.</b></p>    
     </div>
 </div>
 
