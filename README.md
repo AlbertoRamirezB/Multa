@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,19 +35,21 @@
             position: absolute;
             background: #fff;
             border-radius: .7em;
-            padding: 7px 7px;
-            font-size: 14px;
+            padding: 5px 7px;
+            font-size: 12px;
             color: #6B425D;
             border: 2px solid #6B425D;
-        }
-        .speech-bubble.left {
-            top: 35%;
-            left: 10%;
+            -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
         }
+        .speech-bubble.left {
+            top: 390px;
+            left: 600px;;
+        }
         .speech-bubble.right {
-            top: 35%;
-            right: 10%;
+            top: 400px;
+            right: 450px;
+            -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%);
         }
         .instagram-icon {
@@ -62,25 +63,29 @@
             text-decoration: none;
         }
         .square-container {
-            margin-top: 2px;
+            margin-top: 5px;
             background-color: #044e2d99;
             color: black;
             border-radius: 4px;
             text-align: left;
             line-height: 1.2em;
             font-size: 15px;
-            padding: 10px;
+            padding: 7px;
             box-sizing: border-box;
-            border: 5px solid transparent #6B425D;
+            border: 1px solid #0b4a01;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 480px) {
             .speech-bubble.left {
                 top: 35%;
                 left: 74%;
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
             }
             .speech-bubble.right {
                 top: 36%;
                 right: 60%;
+                -webkit-transform: translate(50%, -50%);
+                transform: translate(50%, -50%);
             }
             .square-container {
                 font-size: 14px;
@@ -90,6 +95,7 @@
             .speech-bubble.left,
             .speech-bubble.right {
                 top: 25%;
+                -webkit-transform: translate(0, -50%);
                 transform: translate(0, -50%);
             }
             .speech-bubble.left {
