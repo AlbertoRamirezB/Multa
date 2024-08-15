@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -122,4 +123,6 @@
         Buenas, somos dos notas por la costa brava, y hemos creado esta web para buscar planes y conocer a gente.
     </div>
 </div>
+
 </body>
+</html>
