@@ -1,1 +1,1 @@
-![tranquilidad que no os han multado](foto.png)
+![tranquilidad que no os han multado](main/foto.jpg)
