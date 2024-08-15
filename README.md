@@ -74,7 +74,7 @@
             box-sizing: border-box;
             border: 1px solid #0b4a01;
         }
-        @media (max-width: 480px) {
+        @media (max-width: 500px) {
             .speech-bubble.left {
                 top: 35%;
                 left: 74%;
@@ -88,24 +88,25 @@
                 transform: translate(50%, -50%);
             }
             .square-container {
-                font-size: 14px;
+                font-size: 10px;
             }
         }
         @media (max-width: 480px) {
             .speech-bubble.left,
             .speech-bubble.right {
-                top: 25%;
+                top: 35%;
                 -webkit-transform: translate(0, -50%);
                 transform: translate(0, -50%);
             }
-            .speech-bubble.left {
-                left: 30%;
-            }
+             .speech-bubble.left {
+                top: 32%;
+                left: 65%;
+            } 
             .speech-bubble.right {
-                right: 30%;
+                right: 45%;
             }
             .square-container {
-                font-size: 12px;
+                font-size: 10px;
             }
         }
     </style>
@@ -131,3 +132,4 @@
 </div>
 
 </body>
+</html>
