@@ -31,9 +31,18 @@
     </style>
 </head>
 <body>
-    <div class="container">
+        <div class="container">
         <p class="username"><a href="https://www.instagram.com/davidmartinezzz">davidmartinezzz</a></p>
         <p class="username"><a href="https://www.instagram.com/alberto.ramirezb_">alberto.ramirezb_</a></p>
     </div>
+    <div style="position: relative; text-align: center; color: white;">
+    <img src="foto.jpg" alt="Imagen de fondo" style="width:100%;">
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <p style="background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px;">
+            Texto posicionado sobre la imagen
+        </p>
+    </div>
+ </div>
+
 </body>
 </html>
